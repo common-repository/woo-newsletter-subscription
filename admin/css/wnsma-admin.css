@@ -1,0 +1,61 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+	.wc-newsletter{
+	margin: 1% 0%;
+	padding: 2%;
+	background-color: #F1F1F1;
+	}
+
+.WNSMA_head{
+	margin: 0px 0px 20px 20px !important;
+}
+
+.tooltip{
+	width: 500px !important;
+}
+
+.divider{
+	width: 95%; height: 10px; border-bottom: 1px solid #F1F1F1; text-align: left; margin: 10px 0px;
+}
+
+.divider > span{
+	font-size: 16px; background-color: white; color: #337AB7; padding: 0 10px 0 20px;
+}
+
+.display-none{
+	display: none;
+}
+
+#alert-close{
+	float:right;
+	cursor: pointer;
+}
+
+.mc_remove_list{
+	cursor: pointer;
+}
+
+.btn-default {
+	background-color: #F9F9F9;
+}
+
+	@media (min-width:769px){
+	.wc-newsletter{
+	 width: 80%;
+	}
+	}
+
+	@media (min-width:321px) and (max-width:768px){
+	.wc-newsletter{
+	 width: 100%;
+	}
+	}
+
+	@media (max-width:320px){
+	.wc-newsletter{
+	 width: 100%;
+	}
+	}
